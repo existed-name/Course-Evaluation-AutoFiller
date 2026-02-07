@@ -1,10 +1,13 @@
 # 🎓 课程评价收割机 (Course-Evaluation-AutoFiller) 🚀
 
-![Java](https://img.shields.io/badge/Language-Java-orange.svg)
-![Selenium](https://img.shields.io/badge/Framework-Selenium-green.svg)
-![Version](https://img.shields.io/badge/Release-v1.0.0-blue.svg)
+<div align="center">
+  <img src="https://img.shields.io/badge/Language-Java-orange.svg" />
+  <img src="https://img.shields.io/badge/Framework-Selenium-green.svg" />
+  <img src="https://img.shields.io/badge/Release-v1.0.0-blue.svg" />
+  <br>
+  <img src="/assets/images/logo.ico" />
+</div>
 
-![logo](/assets/images/logo.ico "logo")
 > **告别繁琐，一键收割！**  
 > 这是一个基于 Java + Selenium 开发的极简自动化脚本，旨在帮助同学们从教务系统冗长的教学质量评价问卷中解脱出来
 
@@ -16,9 +19,13 @@
 * **循环执行**：自动遍历课程列表，直到收割完最后一门课。
 * **容错机制**：列表清空自动识别，避免脚本报错。
 
+## 📺 脚本运行演示
+![demo](/assets/images/Course-Evaluation-AutoFiller-v0.3-demo.gif "demo")  
+![ScreenShot](/assets/images/Console-ScreenShot.png "截图") 
+
 ## 📦 下载安装
 
-请前往 [Releases 页面](https://github.com/existed-name/Course-Evaluation-AutoFiller/releases)(**有详细使用说明**)  
+请前往 [Releases 页面](https://github.com/existed-name/Course-Evaluation-AutoFiller/releases)(**发布界面有详细使用说明**)  
 下载最新版本：
 
 | 文件名 | 适用场景 |
@@ -56,11 +63,7 @@
 2. `dev-log`: 开发日志, 记录我的思考、排查过程
 3. `src/main`: 源码(无测试代码、目前有`msedgedriver.exe`作为`resources`)
 4. `pom.xml`、`dependency-reduced-pom.xml`: 项目依赖
-
-## 📺 脚本运行演示
-![demo](/assets/images/Course-Evaluation-AutoFiller-v0.3-demo.gif "demo")  
-
-
+ 
 ---
 
 **免责声明**：本工具仅用于学术交流和自动化技术探索，请合理使用，切勿干扰教务系统正常运行。
@@ -68,3 +71,5 @@
 **如果你觉得好用，请给个 ⭐️ Star 吧！**   
 
 [Issues 提交](https://github.com/existed-name/Course-Evaluation-AutoFiller/issues) | [讨论区](https://github.com/existed-name/Course-Evaluation-AutoFiller/discussions)
+
+[本项目使用 GPL3.0 开源协议](/LICENSE)
