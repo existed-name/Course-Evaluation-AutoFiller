@@ -64,12 +64,14 @@
 
 1. `AI-Prompt`: 开发中使用的AI提示词
 2. `dev-log`: 开发日志, 记录我的思考、排查过程
-3. `docs/Tech-Details.md`: 技术点
-4. `src/main`: 源码
+3. `docs`:
+   * `Tech-Details.md`: 技术点
+   * `Auto-Packaging.bat`: 自动打包批处理文件( 可用记事本打开查看代码 )
+5. `src/main`: 源码
    * 无测试代码(`Test`)
    * `resources`包内为`msedgedriver.exe`
    * 下载源码的同学可在`config`包的`SystemConfig`类的最下面修改`DEFAULT_COMMENT`(填写的评语)
-5. `pom.xml`、`dependency-reduced-pom.xml`: 项目依赖
+6. `pom.xml`、`dependency-reduced-pom.xml`: 项目依赖
  
 ## 💡 附
 
