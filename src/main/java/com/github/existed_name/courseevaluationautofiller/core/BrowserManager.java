@@ -64,14 +64,11 @@ public class BrowserManager {
             System.err.println("   [警告] 进程清理失败: " + e.getMessage());
         }
     }
-    
+
     /**
      * 配置 WebDriver 系统属性
      */
     private void setupDriver() throws IOException{
-//        System.setProperty("webdriver.edge.driver", EDGE_DRIVER_PATH);
-//        System.out.println("   [配置] 驱动路径: " + EDGE_DRIVER_PATH);
-
         String path = loadEdgeDriverPath();
         System.out.println( "   [配置] 驱动路径: " + path );
         System.setProperty( "webdriver.edge.driver", path );
@@ -112,7 +109,6 @@ public class BrowserManager {
         options.addArguments("--remote-allow-origins=*");
         
         // 复用用户配置（Cookie、缓存、登录状态）
-//        options.addArguments("user-data-dir=" + EDGE_USER_DATA_DIR);
         options.addArguments("user-data-dir=" + loadUserDataDir());
         options.addArguments("profile-directory=" + EDGE_PROFILE);
         
@@ -125,12 +121,12 @@ public class BrowserManager {
         // 设置等待策略
         driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT_TIMEOUT);
         this.wait = new WebDriverWait(driver, EXPLICIT_WAIT_TIMEOUT);
-        
+
         System.out.println("   [配置] 浏览器已启动(配置: " + EDGE_PROFILE + ")");
     }
 
     /**
-     * 获取系统用户名，拼接 Edge 数据储存目录
+     * 获取系统用户名，拼接 Edge 数据储存目录(保留登录 Cookie 的关键)
      *
      * @return Edge 储存用户数据的绝对路径
      */
@@ -140,9 +136,10 @@ public class BrowserManager {
 //        String username2 = System.getenv("USERNAME");
 //        System.out.println("环境变量用户名: " + username2);
 
+        // Windows路径，注意双反斜杠
         return String.format( "C:\\Users\\%s\\AppData\\Local\\Microsoft\\Edge\\User Data", username );
     }
-    
+
     /**
      * 导航至目标页面
      */
