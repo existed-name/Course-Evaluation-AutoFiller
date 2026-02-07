@@ -21,6 +21,7 @@ options.addArguments("profile-directory=" + EDGE_PROFILE);
 
 **注意事项**：
 - 需先手动登录一次并保存Cookie
+- 确保Edge没有设置清除浏览数据
 - 运行脚本前需关闭所有Edge浏览器窗口（避免数据目录占用）
 
 ---
