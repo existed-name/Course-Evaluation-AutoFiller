@@ -22,6 +22,7 @@
 * **容错机制**：列表清空自动识别，避免脚本报错。
 
 ## 📺 脚本运行演示
+清朝画质😅  
 ![demo](/assets/images/Course-Evaluation-AutoFiller-v0.3-demo.gif "demo")  
 ![ScreenShot](/assets/images/Console-ScreenShot.png "截图") 
 
