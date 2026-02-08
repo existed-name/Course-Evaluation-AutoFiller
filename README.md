@@ -1,11 +1,14 @@
 # 🎓 课程评价收割机 (Course-Evaluation-AutoFiller) 🚀
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Language-Java-orange.svg" />
-  <img src="https://img.shields.io/badge/Framework-Selenium-green.svg" />
-  <img src="https://img.shields.io/badge/Tool-Maven-blue.svg" />
-  <img src="https://img.shields.io/badge/Release-v1.0.0-red.svg" />
-  <img src="https://img.shields.io/badge/License-GPL3.0-yellow.svg" />
+  <img src="https://img.shields.io/badge/Java-21-red.svg?logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Selenium-4.40.0-green.svg?logo=selenium&logoColor=white" />
+  <img src="https://img.shields.io/badge/Browser-Edge-blue.svg?logo=microsoftedge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Build%20Tool-Maven-orange.svg?logo=apachemaven&logoColor=white" />
+  <img src="https://img.shields.io/badge/OS-Windows-blueviolet.svg?logo=windows&logoColor=white" />
+  <br>
+  <img src="https://img.shields.io/badge/Release-v1.0.0-success.svg" />
+  <img src="https://img.shields.io/badge/License-GPL%203.0-blue.svg?logo=gnu&logoColor=white" />
   <br>
   <img src="/assets/images/logo.ico" />
 </div>
@@ -124,7 +127,7 @@
 3. **特别鸣谢**: 所有参与本项目规划、开发、维护的AI
    * <a href="https://claude.ai/new"> ClaudeSonnet4.5 </a>: 开发模块2以及后续整个脚本、技术点文档编写
    * <a href="https://gemini.google.com/app"> Gemini3 </a>: 项目规划、编写模块1&2的提示词、技术讲解、Readme模板编写
-   * <a href="https://www.kimi.com/"> KimiK2.5 </a>: 模块1的开发、bug 修复、总结
+   * <a href="https://www.kimi.com/"> KimiK2.5 </a>: 模块1的开发、bug 修复、总结, 编写打包批处理文件, 部分技术讲解, 优化徽章墙
    * <a href="https://chat.deepseek.com/"> DeepSeekV3.2 </a>: 模块1的 bug 修复、建议
    
 4. [Issues 提交](https://github.com/existed-name/Course-Evaluation-AutoFiller/issues) | [讨论区](https://github.com/existed-name/Course-Evaluation-AutoFiller/discussions)
